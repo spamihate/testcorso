@@ -1,0 +1,12 @@
+name: Compile program
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    steps:
+      - name: run ls
+        run: "ls"
